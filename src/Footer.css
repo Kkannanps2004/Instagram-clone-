@@ -1,0 +1,18 @@
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    position: absolute;
+    bottom: 0;
+    right: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-ul{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}

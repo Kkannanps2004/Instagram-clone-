@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Center from './Center';
+import Follows from './Follows';
+import Footer from './Footer';
+import Header from './Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+
+      <Center 
+        name = "kk_dark"
+        musicName="a2dMusick , kamalakannan"
+        aritstName ="Kamalkannan"
+        movieName = "dead-pool"
+        profilImg = "/images/water2.jpg"
+      />
+
+      <Follows />
+
+      <Footer/>
     </div>
   );
 }

@@ -1,0 +1,108 @@
+.center{
+    width: 55%;
+    min-height: 100vh;
+}
+
+.center_story{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    scrollbar-width: none ;
+
+}
+.center_story-profil{
+    display: flex;
+    flex-direction: row;
+}
+
+.center_story-profil-story{
+    min-width: 20%;
+    max-width: 20%;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center_story-profil-story-pic{
+    background-color: var(--STORY_BORDER-COLOR);
+    border-radius: 50%;
+    padding: 0.2rem;
+    display: inline-flex;
+    justify-content: center;        
+}
+
+
+.center_story-profil-story-pic img{
+    width: 100%;
+    border-radius: 50%;
+}
+.center_story-profil-story-name{
+    color: var(--M-COLOR) ;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+.center_post{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+.center_post-post{
+    width: 70%;
+}
+.center_post-post-profil{
+    display: flex;
+    gap: 0.3rem;
+    padding: 0.5rem;
+
+}
+.center_post-post-profil_pic{
+    width: 10%;
+}
+.center_post-post-profil_pic img{
+    width: 85%;
+    border-radius: 50%;
+}
+.center_post-post-info{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.center_post-post-info-name-ditals{
+    display: flex;
+    align-items: end;
+    gap: 0.2rem;
+}
+.center_post-post-info-name-ditals h6{
+    color: var(--M-COLOR);
+}
+.center_post-post-info-more{
+    padding: 0 0.5rem;
+}
+
+.center_post-post-contant{
+    width: 100%;
+}
+.center_post-post-contant img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

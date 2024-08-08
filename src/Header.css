@@ -1,0 +1,32 @@
+.header{
+    color:var(--COLOR);
+    background-color: var(--BACKGROUND-COLOR);
+    min-width: 20%;
+    border-right: 1px solid var(--BORDER-COLOR);
+    padding: 2rem 1.5rem;    
+}
+
+.header_nav-c{
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+}
+
+.header_nav-c li{
+    list-style: square;
+    padding: 1.4rem 0;
+    color: var(--M-COLOR);
+}
+
+.header_nav-more{
+    padding: 0 1.5rem;
+}
+
+.header_nav-c li:hover , .header_nav-c li:focus{
+    color: var(--COLOR);
+    
+}
+
+.headerAll{
+    position: fixed;
+}
